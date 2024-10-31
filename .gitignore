@@ -60,3 +60,7 @@ dmypy.json
 
 # Pytype static type analyzer
 .pytype/
+
+# Setuptools
+build/
+dist/

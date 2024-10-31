@@ -1,4 +1,4 @@
-# Guard
+# Guard Decorator
 
 Guard is a Python library designed to simplify exception handling in your code. By using the `guard` decorator, you can significantly reduce the boilerplate code associated with `try-except-finally` blocks, making your code cleaner and more readable.
 
@@ -14,13 +14,13 @@ Guard is a Python library designed to simplify exception handling in your code. 
 You can install the `guard` library via pip:
 
 ```bash
-pip install guard
+pip install guard-decorator
 ```
 
 ## Basic usage:
 
 ```python
-from guard import guard
+from guard_decorator import guard
 
 # Exception handler
 def handle_division_error(e, *args, **kwargs):
